@@ -4,18 +4,18 @@ import Main from '../layouts/Main';
 
 const Index = () => {
   const poemLines = [
-    "        与谁同坐，明月清风我。",
-    "        舞蝶迷香径，翩翩逐晚风。",
-    "        假作真时真亦假，无为有处有还无。",
-    "        采菊东篱下，悠然见南山。",
-    "        路漫漫其修远兮，吾将上下而求索。",
-    "        不能胜寸心，安能胜苍穹。",
-    "        用舍由时，行藏在我，袖手何妨闲处看。",
-    "        天上月，水中天。夜夜烟波得意眠。",
-    "        青松皓鹤，绵绵度岁。",
-    "        好风凭借力，送我上青云。",
-    "        已识乾坤大，犹怜草木青。",
-    "        悟已往之不谏，知来者之可追。"
+    '        与谁同坐，明月清风我。',
+    '        舞蝶迷香径，翩翩逐晚风。',
+    '        假作真时真亦假，无为有处有还无。',
+    '        采菊东篱下，悠然见南山。',
+    '        路漫漫其修远兮，吾将上下而求索。',
+    '        不能胜寸心，安能胜苍穹。',
+    '        用舍由时，行藏在我，袖手何妨闲处看。',
+    '        天上月，水中天。夜夜烟波得意眠。',
+    '        青松皓鹤，绵绵度岁。',
+    '        好风凭借力，送我上青云。',
+    '        已识乾坤大，犹怜草木青。',
+    '        悟已往之不谏，知来者之可追。',
   ];
 
   const getRandomLine = () => {
@@ -40,7 +40,8 @@ const Index = () => {
       description={"Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
         + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'}
     >
-      <style>{`
+      <style>
+        {`
         .header-poem {
           font-family: 'Noto Serif SC', serif;
           font-size: 1.5em;
@@ -49,7 +50,8 @@ const Index = () => {
           margin: 1em 0;
           white-space: pre-wrap;
         }
-      `}</style>
+      `}
+      </style>
       <article className="post" id="index">
         <header>
           <div className="header-poem">
@@ -70,4 +72,3 @@ const Index = () => {
 };
 
 export default Index;
-

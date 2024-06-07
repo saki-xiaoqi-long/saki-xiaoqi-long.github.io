@@ -19,7 +19,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Xiao-Qi. I also go by "Saki." I am a <a href="https://law.yale.edu/">Yale Law School</a> JD Candidate, Caltech Alumni,
+      <p>Hi, I&apos;m Xiao-Qi. I also go by Saki. I am a <a href="https://law.yale.edu/">Yale Law School</a> JD Candidate, Caltech Alumni,
         and a litigation summer associate at <a href="https://fr.com">Fish & Richardson</a>.
       </p>
       <ul className="actions">
