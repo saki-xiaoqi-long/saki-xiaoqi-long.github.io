@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://long.github.io/",
+  "homepage": "https://xiaoqi.github.io/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saki-xiaoqi-long/long.github.io.git"
+    "url": "https://github.com/saki-xiaoqi-long/xiaoqi.github.io"
   },
   "engines": {
     "node": ">=16.x"
