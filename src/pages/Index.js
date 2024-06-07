@@ -68,7 +68,7 @@ const Index = () => {
       <article className="post" id="index">
         <header>
           <div className="header-poem">
-            {poemLines}
+            {poemLine}
           </div>
         </header>
         <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
